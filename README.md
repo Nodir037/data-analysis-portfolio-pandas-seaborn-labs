@@ -11,12 +11,12 @@
 ```
 DataViz-Analysis-Portfolio/
 │
-├── bike_share.ipynb     # Bike rental analysis — Regression & Heatmaps
-├── cborn.ipynb          # Young people survey — Seaborn visualization
-├── kirish_puli.ipynb    # College tuition analysis
-├── goldsilver.ipynb     # Data normalization / scaling techniques
-├── example.ipynb        # NFL pass data — Missing value handling
-├── top1.ipynb           # Weather & Olympics — Matplotlib basics
+├── Bike rental analysis — Regression & Heatmaps.ipynb     # Bike rental analysis — Regression & Heatmaps
+├── Youth Survey — Seaborn Visualization.ipynb             # Young people survey — Seaborn visualization
+├── College_Tuition_Cost_Analysis.ipynb                    # College tuition analysis
+├── Data normalization methods.ipynb                       # Data normalization / scaling techniques
+├── NFL pass data cleanup.ipynb                            # NFL pass data — Missing value handling
+├──  Weather & Olympics — Matplotlib basics.ipynb          # Weather & Olympics — Matplotlib basics
 └── README.md
 ```
 
@@ -26,19 +26,19 @@ DataViz-Analysis-Portfolio/
 
 ---
 
-### 🚲 `bike_share.ipynb` — Bike Rental Analysis / Velosiped Ijarasi Tahlili
+### 🚲 `Bike rental analysis — Regression & Heatmaps.ipynb` — Bike Rental Analysis / Velosiped Ijarasi Tahlili
 
 **EN:** Explores bike rental demand using regression plots and heatmaps. Analyzes the relationship between temperature, month, weekday, humidity, and wind speed with total rentals.
 
 **UZ:** Velosiped ijarasi talabini regressiya grafiklari va heatmap yordamida tahlil qiladi. Harorat, oy, hafta kuni, namlik va shamol tezligining ijara soniga ta'sirini o'rganadi.
 
-- **Dataset:** `bike_share.csv`
+- **Dataset:** `Bike rental analysis — Regression & Heatmaps.csv`
 - **Libraries / Kutubxonalar:** `seaborn`, `pandas`, `matplotlib`, `numpy`
 - **Techniques / Texnikalar:** `regplot`, `residplot`, `x_jitter`, `x_estimator`, `x_bins`, `crosstab`, `heatmap`, correlation matrix
 
 ---
 
-### 🧑‍🎓 `cborn.ipynb` — Young People Survey / Yoshlar So'rovnomasi
+### 🧑‍🎓 `Youth Survey — Seaborn Visualization.ipynb` — Young People Survey / Yoshlar So'rovnomasi
 
 **EN:** Analyzes internet usage habits among young people by age and gender.
 
@@ -50,43 +50,43 @@ DataViz-Analysis-Portfolio/
 
 ---
 
-### 🏫 `kirish_puli.ipynb` — College Tuition Analysis / Kollej O'qish Narxlari
+### 🏫 `College_Tuition_Cost_Analysis.ipynb` — College Tuition Analysis / Kollej O'qish Narxlari
 
 **EN:** Analyzes US university tuition fees by region and visualizes a personal budget line.
 
 **UZ:** AQSh universitetlarining o'qish narxlarini mintaqalar bo'yicha tahlil qiladi va shaxsiy byudjet chizig'ini vizualizatsiya qiladi.
 
-- **Dataset:** `college_datav3.csv` (DataCamp)
+- **Dataset:** `College_Tuition_Cost_Analysis.csv` (DataCamp)
 - **Libraries / Kutubxonalar:** `seaborn`, `pandas`, `matplotlib`
 - **Techniques / Texnikalar:** `displot`, `histplot`, `subplots`, `axvline`, density plots
 
 ---
 
-### 🥇 `goldsilver.ipynb` — Data Normalization / Normalizatsiya Usullari
+### 🥇 `Data normalization methods.ipynb` — Data Normalization / Normalizatsiya Usullari
 
 **EN:** Compares four normalization methods on chemical element data.
 
 **UZ:** Kimyoviy elementlar ma'lumotlari ustida to'rtta normalizatsiya usulini solishtiradi.
 
-- **Dataset:** `goldsilver.csv`
+- **Dataset:** `Data normalization methods.csv`
 - **Libraries / Kutubxonalar:** `pandas`, `numpy`, `seaborn`
 - **Techniques / Texnikalar:** Max Scaling, Mean Scaling, Min-Max Scaling, Robust Scaling
 
 ---
 
-### 🏈 `example.ipynb` — NFL Data Cleaning / NFL Ma'lumotlarini Tozalash
+### 🏈 `NFL pass data cleanup.ipynb` — NFL Data Cleaning / NFL Ma'lumotlarini Tozalash
 
 **EN:** Identifies and handles missing values (NaN) in real sports data.
 
 **UZ:** Real sport ma'lumotlaridagi yo'qolgan qiymatlarni (NaN) aniqlash va to'ldirish.
 
-- **Dataset:** `example.csv` (NFL games)
+- **Dataset:** `NFL pass data cleanup.csv` (NFL games)
 - **Libraries / Kutubxonalar:** `pandas`, `numpy`
 - **Techniques / Texnikalar:** `fillna`, median imputation, missing value indicator (`-1`)
 
 ---
 
-### 🌦️ `top1.ipynb` — Weather & Olympics / Ob-havo & Olimpiada
+### 🌦️ ` Weather & Olympics — Matplotlib basics.ipynb` — Weather & Olympics / Ob-havo & Olimpiada
 
 **EN:** Covers Matplotlib fundamentals by comparing Austin and Seattle weather and analyzing 2016 Olympic medals.
 
